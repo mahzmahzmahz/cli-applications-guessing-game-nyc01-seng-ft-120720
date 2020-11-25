@@ -7,7 +7,7 @@ def run_guessing_game
   
   user_input = gets.chomp
   
-  if computer_number = user_input
+  if computer_number == user_input
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{computer_number}."
