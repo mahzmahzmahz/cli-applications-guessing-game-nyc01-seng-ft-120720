@@ -38,4 +38,4 @@ def run_guessing_game
       
     end
     puts "Goodbye!"
-  end
+end
